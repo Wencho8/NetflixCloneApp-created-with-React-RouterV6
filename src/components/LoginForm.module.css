@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    
+  }
+  
+
+  .wrapperBg {
+    padding: 30px 50px 40px;
+    background: rgba(0, 0, 0, 0.795);
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.466);
+    border-radius: 4px;
+   }
+
+  .wrapper {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+   }
+
+   .wrapperInput {
+    margin-top: 10px;
+   }
+  
+
+  .wrapper input {
+    background: rgb(100, 100, 100);
+    width: 100%;
+    color: white;
+    font: inherit;
+    border-radius: 6px;
+    margin-top: 1px;
+    padding:10px 0 10px; 
+
+  }
+
+
+  .wrapperError {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+   }
+
+  .wrapperError input  {
+    background: rgb(100, 100, 100);
+    width: 100%;
+    color: white;
+    font: inherit;
+    border-bottom-color: #f17a09;
+    border-radius: 6px;
+    margin-top: 1px;
+    padding:10px 0 10px; 
+
+  }
+
+
+
+  .wrapper button {
+    background: rgb(185, 0, 0);
+    padding:10px 0 10px; 
+    width: 100%;
+    color: white;
+    font: inherit;
+    border-radius: 6px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+  .wrapper button:hover {
+    background: rgb(73, 7, 7);
+    color: white;
+  }
+  
+  .errorText {
+    color: #f17a09;
+    font-size: small
+  }
+
+  .wrapperError button {
+    background: rgb(185, 0, 0);
+    padding:10px 0 10px; 
+    width: 100%;
+    color: white;
+    font: inherit;
+    border-radius: 6px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+  .wrapperError button:hover {
+    background: rgb(73, 7, 7);
+    color: white;
+  }

@@ -1,0 +1,68 @@
+.netflix {
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    height: 13%;
+    width: 13%;
+
+    object-fit: contain;
+  }
+
+  .netflix:hover
+  {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+
+  .avatar {
+    width: 50px;
+    margin-top: 0.7rem;
+    margin-bottom: 0.3rem;
+    margin-right: 1.5rem;
+    object-fit: contain;
+    cursor: pointer;
+   }
+
+   .avatar:hover
+    {
+      transform: scale(1.1);
+      transition: all 0.5s;
+    }
+   .containerScrolled{
+    position: fixed;
+    top: 0;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+
+    transition-timing-function: ease-in;
+    transition: all 1s;
+   }
+
+   .container{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+
+    transition-timing-function: ease-out;
+    transition: all 1s;
+   }
+
+
+   .container button {
+    background: rgb(185, 0, 0);
+    padding:2px 0 2px; 
+    width: 10%;
+    color: white;
+    font: inherit;
+    border-radius: 6px;
+    margin-top: 3px;
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+
+  .container button:hover {
+    background: rgb(94, 6, 6);
+  }
+  

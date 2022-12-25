@@ -1,0 +1,33 @@
+.rowImage{
+    width: 100%;
+    object-fit: contain;
+    max-height: 200px;
+    margin-right: 10px;
+   
+}
+
+.rowImage:hover{
+   transform: scale(1.2);
+   cursor: pointer;
+}
+
+.rowWrapper{
+    display: flex;
+    padding: 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+
+}
+
+.rowWrapper::-webkit-scrollbar { 
+   display: none;
+}
+
+
+
+.text h2 {
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 9px;
+}
