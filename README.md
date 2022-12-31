@@ -5,7 +5,7 @@ the trailers of the movies these two packages were used: movie-trailer-npm and y
 
 A fully optimized project that includes advanced use of react with features like Router (for different pages such as login and main), custom hooks for the validation of the input form, reactLazy and the most important hooks of react.
 
-Deploy Link: https://netflix-clone-app-nine.vercel.app/login
+<!-- Deploy Link: https://netflix-clone-app-nine.vercel.app/login -->
 
 Images:
 
